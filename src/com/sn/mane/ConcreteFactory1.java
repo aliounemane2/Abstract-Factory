@@ -9,6 +9,6 @@ public class ConcreteFactory1 implements AbstractFactory {
 
     @Override
     public AbstractProductB createProductB() {
-        return new ProductA2();
+        return new ProductB1();
     }
 }
